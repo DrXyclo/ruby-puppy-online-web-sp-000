@@ -19,7 +19,7 @@ class Dog
   end 
   
 end
-
+all
 =begin 
 def self.all
     @@all.each do |i| 
