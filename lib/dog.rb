@@ -15,8 +15,11 @@ class Dog
   
   def self.all
    
-    puts @@all.name
+    @@all.each do |i| 
+      puts i.name 
+    end 
   end 
+
   
 end
 pluto = Dog.new("Pluto")
