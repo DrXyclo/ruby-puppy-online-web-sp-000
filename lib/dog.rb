@@ -19,7 +19,7 @@ class Dog
   end 
   
 end
-puts Dog.all
+Dog.all
 
 =begin 
 def self.all
