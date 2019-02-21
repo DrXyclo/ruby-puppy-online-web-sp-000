@@ -19,7 +19,8 @@ class Dog
   end 
   
 end
-Dog.all
+puts @@all
+
 =begin 
 def self.all
     @@all.each do |i| 
